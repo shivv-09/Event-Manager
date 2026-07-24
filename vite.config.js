@@ -3,9 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Event-Manager/',
   plugins: [react(), tailwindcss()],
-  base: '/Event-Manager/',
+  base: '/',
   server: {
     proxy: {
       // Proxy /mockapi to the mockapi.io clone to avoid CORS in development
