@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Event_Manager/',
+  base: '/Event-Manager/',
   plugins: [react(), tailwindcss()],
   base: '/Event-Manager/',
   server: {
